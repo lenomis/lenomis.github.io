@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* --- Sticky Nav --- */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+/* --- Main content area --- */
+main {
+  padding: 2rem;
+}
