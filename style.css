@@ -94,6 +94,17 @@ p {
   vertical-align: middle;
 }
 
+/* --- Buttons --- */
+.button-pink {
+  padding: 1rem;
+  background-color: #f4b7a4;
+}
+
+.button-white {
+  padding: 1rem;
+  background-color: #fff;
+}
+
 /* --- Main content area --- */
 main {
   padding: 2rem;
