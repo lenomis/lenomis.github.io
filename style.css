@@ -9,6 +9,10 @@ body {
   background-color: #F7E8DE;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
 /* --- Sticky Nav --- */
 .nav {
   position: sticky;
