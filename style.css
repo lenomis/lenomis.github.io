@@ -74,6 +74,19 @@ h1 {
   color: #000;
 }
 
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* --- Columns --- */
+.column {
+  flex: 1;
+  background-color: #F4B7A4;
+  padding: 1rem;
+}
+
 /* --- Main content area --- */
 main {
   padding: 2rem;
