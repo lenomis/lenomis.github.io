@@ -15,6 +15,10 @@ h1 {
   font-weight: 250;
 }
 
+p {
+  bottom-margin: 1rem;
+}
+
 /* --- Sticky Nav --- */
 .nav {
   position: sticky;
