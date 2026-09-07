@@ -11,14 +11,31 @@ body {
 
 h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 64 px;
-  font-weight: 250;
-  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 200;
+  Padding-bottom: 2rem;
 }
 
-p {
+h2 {
+  Font-family: "Raleway", sans-serif;
+  Font-size: 1.75rem;
+  Font-weight: 600;
+  Padding-bottom: 1rem;
+}
+
+h3, .button-coral, .button-white, .button-ghost {
+  Font-family: "Raleway", sans-serif;
+  Font-size: 1.25rem;
+  Font-weight: 600;
+}
+
+p, ul, ol {
   padding-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+}
+
+Ul, ol {
+  Padding-left: 1.5rem;
 }
 
 /* --- Sticky Nav --- */
@@ -39,7 +56,7 @@ p {
   flex: 1;
   text-align: center;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .nav-toggle {
@@ -80,33 +97,103 @@ p {
   color: #000;
 }
 
+/* --- Body Sections --- */
+
+.section-white {
+  width: calc(100% + 6rem);
+  margin-left: -3rem;
+  Padding: 3rem;
+  Background-color: #fff;
+}
+
+.section-pink {
+  width: calc(100% + 6rem);
+  margin-left: -3rem;
+  Padding: 3rem;
+  Background-color: #FBF4EF;
+}
+
+.section-blush {
+  width: calc(100% + 6rem);
+  margin-left: -3rem;
+  Padding: 3rem;
+  Background-color: #F7E8DE;
+}
+
+.section-coral {
+  width: calc(100% + 6rem);
+  margin-left: -3rem;
+  Padding: 3rem;
+  Background-color: #F4B7A4;
+}
+
+/* --- Cards --- */
+.card {
+  Display: flex:
+  Justify-content: space-between;
+  Gap: 1rem;
+  Flex-direction: row;
+}
+
+.card-top {
+  Flex: 1;
+  Background-color: #F4B7A4;
+  Padding: 1rem 2rem 1rem 2rem;
+  Border-radius: 20px 20px 0px 0px;
+}
+
+.card-bottom {
+  Flex: 1;
+  Background-color: #FBF4EF;
+  Padding: 1rem 2rem 1rem 2rem;
+  Border-radius: 0px 0px 20px 20px;
+}
+
+.card-simple {
+  Flex: 1;
+  Background-color: #fff;
+  Padding: 1rem 2rem 1rem 2rem;
+  Border-radius: 20px;
+}
+
+/* --- Columns --- */
 .column-container {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
 
-/* --- Columns --- */
 .column {
   flex: 1;
   background-color: #F4B7A4;
   padding: 1rem;
   text-align: center;
   vertical-align: middle;
+  Border-radius: 20px;
 }
 
 /* --- Buttons --- */
-.button-pink {
+.button-coral {
   padding: 1rem;
   background-color: #f4b7a4;
+  Border-radius: 20px;
 }
 
 .button-white {
   padding: 1rem;
   background-color: #fff;
+  Border-radius: 20px;
 }
 
-/* --- Main content area --- */
+.button-ghost {
+  padding: 1rem;
+  background-color: #fff;
+  Border: 4px solid #f4b7a4;
+  Border-radius: 20px;
+}
+
+/* --- Main content area ---*/
+/* --- Changing this requires recalculating section widths --- */
 main {
-  padding: 2rem;
+  padding: 3rem;
 }
