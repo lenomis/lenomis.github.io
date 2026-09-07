@@ -54,7 +54,7 @@ Ul, ol {
 
 .nav-name {
   flex: 1;
-  text-align: center;
+  text-align: left;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -92,7 +92,7 @@ Ul, ol {
 }
 
 .nav-links li {
-  text-align: center;
+  text-align: right;
 }
 
 .nav-links a {
