@@ -69,8 +69,18 @@ Ul, ol {
   color: #333;
 }
 
+/* --- Hamburger
 .nav-links {
   display: none;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+-- */
+
+.nav-links {
+  display: flex;
   flex-direction: column;
   width: 100%;
   list-style: none;
