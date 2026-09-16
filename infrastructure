@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infrastructure | Case Studies | L. Simone Sanders</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-name"><a href="../index.html">L. Simone Sanders</a></span>
+      <!--<ul class="nav-links">
+        <li><a href="case-studies.html">Case Studies</a></li>
+      </ul>-->
+  </nav>
+<main>
+  <div class="page-header">
+    <h1>Case Studies</h1>
+  </div>
+  <div class="card">
+    <div class="card-top">
+      <h2>No infrastructure? No problem.</h2>
+    </div>
+    <div class="card-bottom">
+      <br />
+      <h2>The Situation</h2>
+      <p>A 5-person nonprofit. 2 full-time staff. A first-of-its-kind national conference to build — with no infrastructure, no tools, no documentation, and no runway to slow down on existing work.</p>
+      <br />
+      <img style="display: block; margin: auto;" width="90%" src="../images/boldly-conference-logo.png" alt="BOLDLY Conference logo" />
+      <br /><br />
+      <h2>What I Did</h2>
+      <p>Before the conference was even on the radar, I identified the organization had no project management system. I led the evaluation for Wrike, and individually implemented and trained my colleagues.</p>
+      <p>When the conference was greenlit, that foundation was ready. In roughly 9 months I built everything else from scratch:</p>
+      <ul>
+        <li><strong>Operations backbone:</strong> Wrike implementation, training, ongoing support</li>
+        <li><strong>Conference infrastructure:</strong> registration, ticketing, payment processing, website, livestream</li>
+        <li><strong>Vendor coordination:</strong> registration company, graphic design firm, social media contractors, livestream platform</li>
+        <li><strong>Team leadership:</strong> managed a part-time employee; participated in hiring and trained two replacements to cover a planned absence, using documentation I created</li>
+      </ul>
+      <p><strong>All of this ran simultaneously, while maintaining normal nonprofit operations.</strong></p>
+      <br />
+      <h2>Impact</h2>
+      <ul>
+        <li>400+ attendees at a first-of-its-kind virtual, national conference</li>
+        <li>Full operational infrastructure built in ~9 months, while maintaining normal nonprofit operations</li>
+        <li>Handoff documentation became ongoing organizational reference material</li>
+      </ul>
+      <br />
+      <h2>Tools</h2>
+      <p>Wrike • Zapier • Stripe • Mailchimp • Sendinblue • Squarespace • Weebly • Brushfire • Facebook • Instagram</p>
+      <br />
+      <br />
+      <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+      <img class="lightbox-trigger" style="display: block; margin: auto;" width="50%" src="../images/boldly-conference-marketing-ux-wireframe.jpg" alt="Wireframe of the marketing UX I created for the BOLDLY Conference" />
+      <div class="lightbox-overlay" id="lightbox">
+        <img src="../images/boldly-conference-marketing-ux-wireframe.jpg" alt="Wireframe of the marketing UX I created for the BOLDLY Conference" />
+      </div>
+      <br />
+      <br />
+      <br /><br />
+    </div>
+  </div>
+<div class="section-blush">
+	<h1>More case studies</h1>
+	<div class="column-container">
+		<div class="column"><div class="button-coral"><a href="groundwork.html">Groundwork</a></div></div>
+		<div class="column"><div class="button-coral"><a href="turnaround.html">Turnaround</a></div></div>
+	</div>
+</div>
+</main>
+<footer>
+	<div class="column-container">
+		<div class="column button-white"><a href="../index.html">Home</a></div>
+    <div class="column button-white"><a href="../case-studies.html">Case Studies</a></div>
+		<div class="column button-white"><a href="../contact.html">Let's chat</a></div>
+	</div>
+  <div class="column"><h1>L. Simone Sanders</h1><h3>(c) 2026</h3></div>
+</footer>
+<script>
+  const trigger = document.querySelector('.lightbox-trigger');
+  const overlay = document.getElementById('lightbox');
+
+  trigger.addEventListener('click', () => {
+    overlay.classList.add('open');
+  });
+
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('open');
+  });
+</script>
+</body>
+</html>
