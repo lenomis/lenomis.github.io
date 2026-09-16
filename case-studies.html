@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Studies | L. Simone Sanders</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-name"><a href="index.html">L. Simone Sanders</a></span>
+    <!--<ul class="nav-links">
+      <li><a href="case-studies.html">Case Studies</a></li>
+    </ul>-->
+  </nav>
+<main>
+  <div class="page-header">
+    <h1>Case Studies</h1>
+  </div>
+  <div class="card-simple">
+	  <h2>No infrastructure? No problem.</h2>
+	  <p>Building a national conference from the ground up, year zero.</p>
+	  <br />
+    <h3>Tags: Operations, Automations</h3>
+    <br /><br />
+	  <div class="button button-coral"><a href="case-studies/conference.html"><h3>Infrastructure</h3></a></div>
+	  <br />
+  </div>
+  <br /><br />
+  <div class="card-simple">
+	  <h2>Groundwork that held when everything else didn't.</h2>
+	  <p>Preparing for something you didn't even know was coming.</p>
+	  <br />
+    <h3>Tags: UX Design, Project Management</h3>
+    <br /><br />
+	  <div class="button button-coral"><a href="case-studies/groundwork.html"><h3>Groundwork</h3></a></div>
+	  <br />
+  </div>
+  <br />
+  <br />
+  <div class="card-simple">
+	  <h2>A quarter behind. Delivered on time.</h2>
+	  <p>Delivering mission-critical resources under pressure and delays.</p>
+	  <br />
+    <h3>Tags: Big Tech, Process Refinement</h3>
+    <br /><br />
+	  <div class="button button-coral"><a href="case-studies/turnaround.html"><h3>Turnaround</h3></a></div>
+    <br />
+  </div>
+  <br />
+  <br />
+</main>
+<footer>
+	<div class="column-container">
+		<div class="column button-white"><a href="index.html">Home</a></div>
+    <div class="column button-white"><a href="case-studies.html">Case Studies</a></div>
+		<div class="column button-white"><a href="contact.html">Let's chat</a></div>
+	</div>
+  <div class="column"><h1>L. Simone Sanders</h1><h3>(c) 2026</h3></div>
+</footer>
+<script>
+  const trigger = document.querySelector('.lightbox-trigger');
+  const overlay = document.getElementById('lightbox');
+
+  trigger.addEventListener('click', () => {
+    overlay.classList.add('open');
+  });
+
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('open');
+  });
+</script>
+</body>
+</html>
