@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turnaround | Case Studies | L. Simone Sanders</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-name"><a href="../index.html">L. Simone Sanders</a></span>
+      <!--<ul class="nav-links">
+        <li><a href="case-studies.html">case-studies</a></li>
+      </ul>-->
+  </nav>
+<main>
+  <div class="page-header">
+    <h1>Case Studies</h1>
+  </div>
+  <div class="card">
+    <div class="card-top">
+    <h2>A quarter behind. Delivered on time.</h2></div>
+      <div class="card-bottom">
+      <br />
+      <br />
+      <h2>The Situation</h2>
+      <p>IBM's z/TPF product runs on Z mainframe systems used by some of the world's largest organizations including financial institutions, airlines, and hospitality. And system reliability isn't optional. Closing the skills gap for the engineers and architects who run that infrastructure wasn't a nice-to-have. It was critical.</p>
+      <p>That meant building a series of interactive online courses for enterprise clients — system architects, security leads, developers — coordinating across 15+ stakeholders consisting of content professionals, engineers, designers, executive leadership, and clients simultaneously. There was no production playbook. We were building it from scratch.</p>
+      <br />
+      <h2>What I Did</h2>
+      <p>I joined mid-production on the first course and immediately raised the quality ceiling by taking ownership of video editing, animation, graphic design, voiceover narration, and accessibility, and brand compliance, while also contributing to the process framework previously established by a colleague.</p>
+      <p>When that colleague retired mid-production on the third course, I assumed full ownership of the production process and retrospectives. Projected delivery without intervention: a full quarter late. By using feedback from the SMEs during the retrospectives to identify the root cause (uncapped review cycles with no clear definition of scope), I redesigned the process, aligned the team, secured stakeholder buy-in, and delivered on time.</p>
+      <br />
+      <h2>Impact</h2>
+        <ul>
+          <li>3	courses project managed end-to-end</li>
+          <li>300+ course participants engaged on IBM Training</li>
+          <li>1 full quarter	of schedule recovered through process redesign</li>
+          <li>Up to 15+ stakeholders coordinated per course</li>
+        </ul>
+      <br />
+      <h2>Tools</h2>
+      <p>Mural • Adobe Premiere Pro • Adobe Illustrator • GarageBand • IBM Training</p>
+      <br />
+      <br />
+      <h3>Courses available on IBM Training (free account required)</h3>
+      <br />
+      <div class="column-container">
+        <div class="column">
+          <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+          <img class="lightbox-trigger" style="display: block; margin: auto;" width="100%" src="../images/ztpf-programming-models-screenshot.png" alt="z/TPF Programming Models online course" />
+            <div class="lightbox-overlay">
+              <img src="../images/ztpf-programming-models-screenshot.png" alt="z/TPF Programming Models online course" />
+            </div><br /><br />
+          <div class="button-white"><a href="https://www.ibm.com/training/course/ztpf-programming-models-DL007240G" target="_blank" rel=noopener">z/TPF Programming Models</a></div></div>
+        <div class="column">
+          <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+          <img class="lightbox-trigger" style="display: block; margin: auto;" width="100%" src="../images/ztpf-task-management-screenshot.png" alt="z/TPF Task Management online course" />
+            <div class="lightbox-overlay">
+              <img src="../images/ztpf-task-management-screenshot.png" alt="z/TPF Task Management online course" />
+            </div><br /><br />
+          <div class="button-white"><a href="https://www.ibm.com/training/course/ztpf-task-management-DL007241G" target="_blank" rel=noopener">z/TPF Task Management</a></div></div>
+        <div class="column">
+          <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+          <img class="lightbox-trigger" style="display: block; margin: auto;" width="100%" src="../images/ztpf-task-management-for-utilities-screenshot.png" alt="z/TPF Task Management for Utilities online course" />
+            <div class="lightbox-overlay">
+              <img src="../images/ztpf-task-management-for-utilities-screenshot.png" alt="z/TPF Task Management for Utilities online course" />
+            </div><br /><br />
+          <div class="button-white"><a href="https://www.ibm.com/training/course/ztpf-task-management-for-utilities-DL007245G" target="_blank" rel=noopener">z/TPF Task Management for Utilities</a></div></div>
+        </div>
+        <br /><br />
+      </div>
+<div class="section-blush">
+	<h1>More case studies</h1>
+	<div class="column-container">
+		<div class="column"><div class="button-coral"><a href="infrastructure.html">Infrastructure</a></div></div>
+		<div class="column"><div class="button-coral"><a href="groundwork.html">Groundwork</a></div></div>
+	</div>
+</div>
+</main>
+<footer>
+	<div class="column-container">
+		<div class="column button-white"><a href="../index.html">Home</a></div>
+    <div class="column button-white"><a href="../case-studies.html">Case Studies</a></div>
+		<div class="column button-white"><a href="../contact.html">Let's chat</a></div>
+	</div>
+  <div class="column"><h1>L. Simone Sanders</h1><h3>(c) 2026</h3></div>
+</footer>
+<script>
+document.querySelectorAll('.lightbox-trigger').forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const overlay = trigger.nextElementSibling;
+    overlay.classList.add('open');
+  });
+});
+
+document.querySelectorAll('.lightbox-overlay').forEach(overlay => {
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('open');
+  });
+});
+</script>
+</body>
+</html>
