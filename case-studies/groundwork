@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groundwork | Case Studies | L. Simone Sanders</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-name"><a href="../index.html">L. Simone Sanders</a></span>
+      <!--<ul class="nav-links">
+        <li><a href="case-studies.html">case-studies</a></li>
+      </ul>-->
+  </nav>
+<main>
+  <div class="page-header">
+    <h1>Case Studies</h1>
+  </div>
+    <div class="card">
+      <div class="card-top">
+        <h2>Groundwork that held when everything else didn't.</h2></div>
+      <div class="card-bottom">
+        <br />
+        <br />
+        <h2>The Situation</h2>
+        <p>A 2,000+ person congregation. 1 congregation growing to 5 distinct congregations with multiple sub-groups each. No unified digital infrastructure. No intake process for content requests. No way to serve a growing, multi-campus organization at scale. And a global pandemic no one saw coming.</p>
+        <br />
+        <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+        <img class="lightbox-trigger" style="display: block; margin: auto; border: 2px solid #737373;" width="50%" src="../images/content-hierarchy.png" alt="Custom website content hierarchy during high growth" />
+          <div class="lightbox-overlay">
+            <img src="../images/content-hierarchy.png" style="border: 2px solid #737373;" alt="Custom website content hierarchy during high growth" />
+          </div>
+          <br /><br />
+        <h2>What I Built</h2>
+        <h3>The Foundation</h3>
+        <p>Inherited a struggling external website project mid-build. Provided strategic input that allowed the team to course-correct, reducing build cost by 50%. Designed the site architecture to house multiple congregations under one domain, allowing for campus-specific branding while maintaining organizational consistency.</p>
+        <br />
+        <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+        <img class="lightbox-trigger" style="display: block; margin: auto;" width="50%" src="../images/audience-1-pre-visitors-home-page-cropped.jpg" alt="How it started: website wireframe" />
+          <div class="lightbox-overlay">
+            <img src="../images/audience-1-pre-visitors-home-page-cropped.jpg" alt="How it started: website wireframe" />
+          </div>
+          <br />
+          <br />
+        <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+        <img class="lightbox-trigger" style="display: block; margin: auto;" width="50%" src="../images/external-website-screenshot.png" alt="How it ended: website screenshot" />
+          <div class="lightbox-overlay">
+            <img src="../images/external-website-screenshot.png" alt="How it ended: website screenshot" />
+          </div>
+          <br />
+        <h3>Extending the Infrastructure</h3>
+        <p>As the external site matured, new needs emerged. I designed and project managed a second custom website for internal members and congregants. My database-integrated site design became a template the vendor sold to other churches. I also built a library of screen-recorded help videos to reduce support burden on staff.</p>
+        <br />
+        <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+        <img class="lightbox-trigger" style="display: block; margin: auto;" width="50%" src="../images/internal-member-website-dashboard-screenshot.png" alt="Customizable dashboard for member, database-integrated website" />
+          <div class="lightbox-overlay">
+            <img src="../images/internal-member-website-dashboard-screenshot.png" alt="Customizable dashboard for member, database-integrated website" / >
+          </div>
+        <br /><br />
+        <p style="text-align: center; font-size: 1rem;"><I>Click to enlarge</I></p>
+        <img class="lightbox-trigger" style="display: block; margin: auto;" width="50%" src="../images/internal-member-website-help-videos-example-email-preferences.png" alt="Screenshot of a help video on internal member website" />
+          <div class="lightbox-overlay">
+            <img src="../images/internal-member-website-help-videos-example-email-preferences.png" alt="Screenshot of a help video on internal member website" />
+          </div>
+        <br />
+        <p>I identified that internal requests were creating workflow chaos, so I built a dynamic Wufoo intake form. Though complex on the backend, the form was seamless on the front end, fed directly into Wrike, and streamlined the team's workload considerably. I also built automated workflows using Zapier, years before automation became a standard part of the ops toolkit.</p>
+        <h3>A Real Difference In Real Lives</h3>
+        <p>March 2020. Stay-at-home orders hit. Organizations scrambled.</p>
+        <p>We didn't skip a beat.</p>
+        <p>Within days, I knew instinctively what the congregation needed: not a dozen links from a dozen ministries, but one place to go. One URL. Everything there.</p>
+        <p>I built a microsite — wireframed on my whiteboard, and live within a week — using the template system I had built into the external website years earlier for exactly this kind of need. Every campus. Every ministry. Every language. One URL blasted everywhere: on social media, in emails, and on the signs posted on the front doors of every building telling people that everything needed was just one click away.</p>
+        <p>From that single page, the congregation could watch Sunday services online, because the livestream infrastructure was already built. Parents were resourced with kids' content timed to run alongside adult services. They could chat online with each other and ask for prayer. Fundraising campaigns were launched. Blood drives were organized. The entire congregation was mobilized as a tangible resource for their respective communities.</p>
+        <p>And all of this was possible because of seven years of infrastructure built deliberately, one system at a time — and the instinct to know exactly how to use it when it counted.</p>
+        <br />
+        <h2>Impact</h2>
+          <ul>
+            <li>2,000+ weekly attendees served across 5 congregations</li>
+            <li>50% reduction in website build cost through strategic input</li>
+            <li>7 years	of infrastructure that enabled a same-week COVID pivot</li>
+            <li>2	custom websites designed and project managed</li>
+            <li>0	days of Sunday service missed during the pandemic</li>
+          </ul>
+        <br />
+        <h2>Tools</h2>
+        <p>Wrike • Wufoo • Zapier • Weebly • GoDaddy • Monk • Blackpulp • Church.online • Ministry Platform • QuickTime • Adobe Photoshop • Adobe Dreamweaver</p>
+        <br />
+        <br />
+    </div>
+<div class="section-blush">
+	<h1>More case studies</h1>
+	<div class="column-container">
+		<div class="column"><div class="button-coral"><a href="infrastructure.html">Infrastructure</a></div></div>
+		<div class="column"><div class="button-coral"><a href="turnaround.html">Turnaround</a></div></div>
+	</div>
+</div>
+</main>
+<footer>
+	<div class="column-container">
+		<div class="column button-white"><a href="../index.html">Home</a></div>
+    <div class="column button-white"><a href="../case-studies.html">Case Studies</a></div>
+		<div class="column button-white"><a href="../contact.html">Let's chat</a></div>
+	</div>
+  <div class="column"><h1>L. Simone Sanders</h1><h3>(c) 2026</h3></div>
+</footer>
+<script>
+document.querySelectorAll('.lightbox-trigger').forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    const overlay = trigger.nextElementSibling;
+    overlay.classList.add('open');
+  });
+});
 
+document.querySelectorAll('.lightbox-overlay').forEach(overlay => {
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('open');
+  });
+});
+</script>
+</body>
+</html>
